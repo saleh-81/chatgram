@@ -33,4 +33,4 @@ python manage.py runserver
 ```
 
 TODO:
-  - complite group section
+  - complete group section
