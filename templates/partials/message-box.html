@@ -1,0 +1,79 @@
+<style>
+    /* .modal .btn-close{
+        background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white' %3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+    } */
+
+    .modal-content{
+        background-color: #FBFBFD !important;
+        color: black !important;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.3) !important;
+        border-radius: 10px;
+        border: none;
+        /* width: max-content !important; */
+        margin: auto;
+    }
+
+    .modal-body{
+        padding-inline: 40px;
+        padding-top: 30px;
+    }
+
+    .modal-footer{
+        border: none;
+        background-color: #f3f3f3;
+        padding-inline: 20px;
+        padding-block: 15px;
+    }
+
+    .modal-btn:hover{
+        background-color: rgb(240, 240, 240);
+    }
+
+    .modal-title{
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    #message-box-yesno .modal-body{
+        padding-bottom: 5px;
+        padding-top: 25px;
+    }
+
+</style>
+<div class="modal fade" id="message-box-yesno" tabindex="-1" aria-labelledby="message-box-yesno-title" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-light">
+            <!-- <div class="modal-header">
+                
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="NO"></button>
+            </div> -->
+            <div class="modal-body">
+                <h5 class="modal-title" id="message-box-yesno-title"></h5>
+                <p id="message-box-yesno-message"></p>
+            </div>
+            <div class="modal-footer">
+                <div class="row m-0 w-100">
+                    <div class="col-6">
+                        <button type="button" class="btn btn-outline-dark w-100" id="message-box-confirm-btn">Yes</button>
+                    </div>
+                    <div class="col-6">
+                        <button type="button" class="btn btn-dark w-100" data-bs-dismiss="modal">No</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="message-box-info" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content bg-dark text-dark">
+            <div class="modal-body text-center">
+                <p id="message-box-info-text"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-dark w-50 m-auto" id="ok-info-message" data-bs-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
