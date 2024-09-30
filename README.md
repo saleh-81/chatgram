@@ -11,7 +11,7 @@ Run Server:
 2. create virtualenv
 3. run commands
    
-    Ipip install -r requirements.txt
+    pip install -r requirements.txt
 
     python manage.py makemigrations
   
