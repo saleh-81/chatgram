@@ -1,12 +1,11 @@
-a web messanger app developed by django (backend) and html, css, js (frontend)
-
-Still developing...
+# Web messenger app
+a web messenger app developed by django (backend) and html, css, js (frontend)
 
 TODO:
   - complite group section
   - ...
 
-Run Server:
+# Run chat Server:
 1. first install python (version 3.10 is recommended)
 2. create virtualenv
 3. run commands
