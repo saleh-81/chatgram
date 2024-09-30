@@ -9,11 +9,12 @@ TODO:
 Run Server:
 1. first install python (version 3.10 is recommended)
 2. create virtualenv
-3. run commands:
-  Ipip install -r requirements.txt
+3. run commands
+   
+    Ipip install -r requirements.txt
 
-  python manage.py makemigrations
+    python manage.py makemigrations
   
-  python manage.py migrate
+    python manage.py migrate
   
-  python manage.py runserver
+    python manage.py runserver
