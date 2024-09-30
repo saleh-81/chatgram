@@ -1,6 +1,7 @@
 a web messanger app developed by django (backend) and html, css, js (frontend)
 
 Still developing...
+
 TODO:
   - complite group section
   - ...
