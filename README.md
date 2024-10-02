@@ -6,6 +6,8 @@ a web messenger app developed by django (backend) and html, css, js (frontend)
 ![Chat window](https://github.com/user-attachments/assets/6446b417-3b24-4174-a37b-7a07f0ebf9ca)
 ![User settings window](https://github.com/user-attachments/assets/437b9815-2bfd-4b8d-8073-fe50be9ce8d0)
 
+<img src="https://github.com/user-attachments/assets/fd3a8ebd-f1ce-49ba-86c1-cf3df5218159" alt="Description" loading="lazy" />
+
 
 
 
