@@ -1,9 +1,11 @@
 # Web messenger app
 a web messenger app developed by django (backend) and html, css, js (frontend)
+
 # Screen shots
-![Uploading Screenshot (55).png…]()
-![Uploading Screenshot (56).png…]()
-![Uploading Screenshot (63).png…]()
+![Login window](https://github.com/user-attachments/assets/fd3a8ebd-f1ce-49ba-86c1-cf3df5218159)
+![Chat window](https://github.com/user-attachments/assets/6446b417-3b24-4174-a37b-7a07f0ebf9ca)
+![User settings window](https://github.com/user-attachments/assets/437b9815-2bfd-4b8d-8073-fe50be9ce8d0)
+
 
 
 
