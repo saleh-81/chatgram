@@ -1,5 +1,11 @@
 # Web messenger app
 a web messenger app developed by django (backend) and html, css, js (frontend)
+# Screen shots
+![Uploading Screenshot (55).png…]()
+![Uploading Screenshot (56).png…]()
+![Uploading Screenshot (63).png…]()
+
+
 
 # Run chat server:
 1. first install python (version 3.10 is recommended)
